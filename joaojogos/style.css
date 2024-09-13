@@ -1,7 +1,7 @@
 /* Reset básico e estilo global */
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+    background: linear-gradient(to right, #f9f9f9, #e0e0e0);
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,8 +11,8 @@ body {
 
 /* Estilo do header */
 header {
-    background: #333;
-    color: #fff;
+    background: #282c34;
+    color: #ffffff;
     padding: 1em;
     text-align: center;
     position: sticky;
@@ -22,24 +22,31 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 1em;
 }
 
 nav a {
-    color: #fff;
+    color: #61dafb;
     text-decoration: none;
     margin: 0 1em;
     font-weight: 500;
+    font-size: 1.1rem;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #21a1f1;
 }
 
 /* Estilo do main */
 main {
     flex: 1;
     padding: 2em;
+    background: #ffffff;
 }
 
 section {
@@ -47,9 +54,11 @@ section {
 }
 
 section h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1em;
-    color: #333;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    color: #333333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5em;
 }
 
 /* Estilo do contêiner do jogo */
@@ -59,7 +68,7 @@ section h2 {
     margin: auto;
     padding: 20px;
     border-radius: 12px;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -72,14 +81,14 @@ section h2 {
 #story-text {
     margin-bottom: 10px;
     font-style: italic;
-    color: #666;
+    color: #666666;
 }
 
 #text-output {
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 1.8;
-    color: #333;
+    color: #333333;
 }
 
 /* Estilo dos botões */
@@ -89,7 +98,7 @@ section h2 {
     margin: 10px 0;
     padding: 12px 20px;
     background: linear-gradient(to right, #007bff, #0056b3);
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -109,8 +118,8 @@ section h2 {
 
 /* Estilo do footer */
 footer {
-    background: #333;
-    color: #fff;
+    background: #282c34;
+    color: #ffffff;
     text-align: center;
     padding: 1em;
     font-size: 0.875rem;
