@@ -61,60 +61,6 @@ section h2 {
     padding-bottom: 0.5em;
 }
 
-/* Estilo do contêiner do jogo */
-#game-container {
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border-radius: 12px;
-    background: #ffffff;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#game-container:hover {
-    transform: scale(1.02);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-}
-
-#story-text {
-    margin-bottom: 10px;
-    font-style: italic;
-    color: #666666;
-}
-
-#text-output {
-    margin-bottom: 20px;
-    font-size: 18px;
-    line-height: 1.8;
-    color: #333333;
-}
-
-/* Estilo dos botões */
-.choice-button {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 12px 20px;
-    background: linear-gradient(to right, #007bff, #0056b3);
-    color: #ffffff;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 16px;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.choice-button:hover {
-    background: linear-gradient(to right, #0056b3, #007bff);
-    transform: scale(1.05);
-}
-
-.choice-button:focus {
-    outline: none;
-}
 
 /* Estilo do footer */
 footer {
