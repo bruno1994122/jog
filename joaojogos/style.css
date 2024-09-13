@@ -1,16 +1,62 @@
+/* Reset básico e estilo global */
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background: linear-gradient(to right, #f0f0f0, #e0e0e0);
     margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
+/* Estilo do header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do main */
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+/* Estilo do contêiner do jogo */
 #game-container {
     width: 100%;
     max-width: 600px;
+    margin: auto;
     padding: 20px;
     border-radius: 12px;
     background: #fff;
@@ -36,8 +82,10 @@ body {
     color: #333;
 }
 
+/* Estilo dos botões */
 .choice-button {
     display: block;
+    width: 100%;
     margin: 10px 0;
     padding: 12px 20px;
     background: linear-gradient(to right, #007bff, #0056b3);
@@ -57,4 +105,13 @@ body {
 
 .choice-button:focus {
     outline: none;
+}
+
+/* Estilo do footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.875rem;
 }
